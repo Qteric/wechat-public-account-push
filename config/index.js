@@ -85,7 +85,7 @@ export const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-08-25"},
+        {"keyword": "love_day", date: "2022-08-27"},
       ]
     },
     {
@@ -103,7 +103,7 @@ export const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "*生日", "name": "贺宇", "year": "2002", "date": "05-18"},
       ],
-      customizedDateList: [{"keyword": "love_day", date: "2022-04-23"},]
+      customizedDateList: [{"keyword": "love_day", date: "2022-04-25"},]
     },
     // 你可以不断按格式往下增加
     {
@@ -121,7 +121,7 @@ export const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "*生日", "name": "贺宇", "year": "2002", "date": "05-18"},
       ],
-      customizedDateList: [{"keyword": "love_day", date: "2022-04-23"},]
+      customizedDateList: [{"keyword": "love_day", date: "2022-04-25"},]
     },
     // 你可以不断按格式往下增加
     // ...
