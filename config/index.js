@@ -106,27 +106,7 @@ export const USER_CONFIG = {
       customizedDateList: [{"keyword": "love_day", date: "2022-04-23"},]
     },
     // 你可以不断按格式往下增加
-    // ...
-    
-  ],
-  
-  /**
-   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
-   */
-  
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "rVzTEzE_ecBkj3GkjY1PenuoIjilUU6GOT0ShC84T9M",
-  
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
     {
-      // 一般都填自己
-      name: "自己",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ofDBR6fr-PxrsxZSDKCW9sG0muyk",
-    },
-    // 你可以不断按格式往下增加
-    // ...{
       name: "笨蛋",
       id: "ofDBR6ZNFOZ1k2pR0CkvkRU7Sfnc",
       useTemplateId: "H8n0LEOsVFX4VDeUR6-rUurIZjUc7szHJE1UuVWK8CQ",
@@ -147,6 +127,23 @@ export const USER_CONFIG = {
     // ...
   ],
   
+  /**
+   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
+   */
+  
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: "rVzTEzE_ecBkj3GkjY1PenuoIjilUU6GOT0ShC84T9M",
+  
+  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
+  CALLBACK_USERS: [
+    {
+      // 一般都填自己
+      name: "自己",
+      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "ofDBR6fr-PxrsxZSDKCW9sG0muyk",
+    },
+    // 你可以不断按格式往下增加
+  ],
   /**
    * 信息配置
    */
