@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wxa8786489d6a5d9ca",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "bb62099927673ee10d744905c4e0cf16",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ofDBR6fr-PxrsxZSDKCW9sG0muyk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "onOVGoCKR8538gZ1H8MZaeKeJ8CuLclr6D8IkV1HC4M",
       // 所在省份
       province: "湖南",
       // 所在城市
