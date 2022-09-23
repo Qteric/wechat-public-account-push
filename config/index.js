@@ -64,11 +64,11 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ofDBR6fr-PxrsxZSDKCW9sG0muyk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "aoQKrsu0tHbx5EIEhTqeHJp1hKYfZVx9ss3DbSN-eok",
+      useTemplateId: "Mn5andNqEY6e1CAxWGyDuItjT52TCcEJr9d1Vhe7wzg",
       // 所在省份
-      province: "湖南",
+      province: "安徽",
       // 所在城市
-      city: "衡阳",
+      city: "宣城",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '7-31',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -91,13 +91,18 @@ export const USER_CONFIG = {
     {
       name: "贺宇",
       id: "ofDBR6aZt69fuR5SBxYCjxgVOq70",
-      useTemplateId: "kMx3tgq356bbVAGFebbtj33BuQTbH9VRGKOf-bmoRNs",
+      useTemplateId: "4_LaBKaAZriGbrCkSnSI-JXKMkxLf-OybrI5O3LsIpA",
       province: "湖南",
       city: "衡阳",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      festivals: [ 
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "宋可欣", "year": "2000", "date": "01-01"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "*生日", "name": "贺宇", "year": "2000", "date": "01-01"},
+      ],
       customizedDateList: []
     },
     // 你可以不断按格式往下增加
