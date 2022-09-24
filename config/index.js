@@ -88,6 +88,36 @@ export const USER_CONFIG = {
         {"keyword": "love_day", date: "2022-08-27"},
       ]
     },
+     {
+      // 想要发送的人的名字
+      name: "晴宝",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "ofDBR6Zhub76kdDtm-0M3nFzVpEo",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "rpXL2tL0OP-kP-Lcq3X8T3JgJNGl9TroGmy1Djmxu54",
+      // 所在省份
+      province: "安徽",
+      // 所在城市
+      city: "宣城",
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '7-31',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://aidn.jp/mikutap/",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "晴宝", "year": "2005", "date": "06-26"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "*生日", "name": "我", "year": "2003", "date": "03-09"},
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-08-27"},
+      ]
+    },
     {
       name: "贺宇",
       id: "ofDBR6aZt69fuR5SBxYCjxgVOq70",
